@@ -1,0 +1,11 @@
+.card{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.card a{
+    text-decoration: none;
+}
+.card a:hover{
+    color: black;
+    
+}

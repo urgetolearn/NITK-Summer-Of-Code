@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/apply.css" />
+
+    <title>Mentor Application</title>
+  </head>
+  <body>
+    <h2>Apply as Mentor</h2>
+    <p>
+      The deadline for accepting applications from mentors is 20th April, 2024
+      11:59 pm IST. Submit your proposal using this template:
+      <a
+        href="https://docs.google.com/document/d/1GzIk3Ho8V6HVNOdXCMDhWDqVVPJLVL821CT9NS0ps90/edit#heading=h.mbjsiz6n6jlo" target="_blank"
+        >Project_Proposal</a
+      >.
+    </p>
+    <div class="mentor-container">
+      <form action="/mentor" method="post">
+        <label for="email">Enter your Email:</label>
+        <br />
+        <input type="email" name="email" size="30" required />
+        <br />
+        <label for="name">Full Name of Project Mentor:</label>
+        <br />
+        <input type="text" name="name" size="30" required />
+        <br />
+        <label for="myfile"
+          >ID Proof(Upload a government issued ID Card or ID card issued by the
+          College. Kindly upload a PDF or an image of the same) :</label
+        >
+        <br />
+
+        <input type="file" id="myfile" name="myfile" required />
+        <br />
+        <label for="proname"
+          >Title of the Proposed Project(Enter the title for the project you are
+          proposing):</label
+        >
+        <br />
+        <input type="text" name="proname" size="30" required />
+        <br />
+
+        <label for="prodesc"
+          >Short Description of the Project(Enter a short description of the
+          project you are proposing):</label
+        >
+        <br />
+        <textarea name="prodesc" id="prodesc" cols="70" rows="10"></textarea>
+
+        <br />
+        <label for="url"
+          >Project Proposal Document(Enter the google docs link to the proposal
+          with COMMENT ACCESS. Refer to the template above.):</label
+        >
+        <br />
+
+        <textarea name="url" id="url" cols="88" rows="2"></textarea>
+
+        <br />
+        <label for="appl"
+          >Restrict applications to only NITK students?(Yes/No):</label
+        >
+        <br />
+        <input type="text" name="appl" required />
+        <br />
+
+        <input class="submit" type="submit" />
+      </form>
+    </div>
+  </body>
+</html>

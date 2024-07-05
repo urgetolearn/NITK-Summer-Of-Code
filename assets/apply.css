@@ -1,0 +1,67 @@
+body{
+    font-size: large;
+    
+}
+.mentor-container{
+    margin: 20px;
+    background-color:black;
+    color: white;
+    padding: 20px;
+    font-size: large;
+}
+p{
+    margin: 20px;
+}
+h2{
+    text-align: center;
+}
+
+label{
+    margin-left:1px;
+    
+}
+input{
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-size: medium;
+}
+input:hover{
+    border-color: orangered;
+    cursor: pointer;
+}
+textarea{
+    border-radius: 12px;
+    margin-bottom: 8px;
+    margin-top: 8px; 
+    font-size: medium; 
+}
+textarea:hover{
+    border-color: orangered;
+    cursor: pointer;
+}
+.submit{
+    padding: 7px;
+    border-radius: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: large;
+}
+.submit:hover{
+    background-color: darkgrey;
+    transition: all 0.3ms ease-in-out;
+    
+}
+.mentee-container{
+    
+    margin: 20px;
+    background-color:black;
+    color: white;
+    padding: 20px;
+    font-size: large;
+
+}
+.mentee-container a{
+    color: aqua;
+    text-decoration: none;
+}

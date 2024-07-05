@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/apply.css">
+    <title>Mentee Application</title>
+</head>
+<body>
+    <h2>Apply as Mentee</h2>
+    <p>The deadline for accepting applications from mentees is 28th May, 2024
+      11:59 pm IST.
+      <br />
+      This form is to collect applications from interested applicants.
+    </p>
+    <div class="mentee-container">
+      <form action="/mentee" method="post">
+        <label for="email">Enter your Email:</label>
+        <br />
+        <input type="email" name="email" size="30" required />
+        <br />
+        <label for="name">Full Name of Project Mentor:</label>
+        <br />
+        <input type="text" name="name" size="30" required />
+        <br />
+        <label for="myfile">College ID Card(Upload a PDF containing your college
+          issued ID card) :</label>
+
+        <br />
+        <input type="file" id="myfile" name="myfile" required />
+        <br />
+        <label for="num">Phone Number:</label>
+        <br />
+        <input type="number" name="num" size="10" required />
+        <br />
+        <label for="git">GitHub Handle(ex:https://github.com/urgetocode):</label>
+        <br />
+        <input type="url" name="git" size="50" required />
+        <br />
+        <label for="student">Are you a student of NITK?(Yes/No):</label>
+        <br />
+        <input type="text" name="student" required />
+        <br />
+        <label for="pro1">Project Preference 1:</label>
+        <br />
+        <input type="text" name="pro1" size="50" required />
+        <br />
+        <label for="pro1pro">Project Preference 1 Proposal(Upload a Document
+          containing your project proposal. Please refer to
+          <a
+            href="https://docs.google.com/document/d/1fCnVHsWAU8gAYEXKTvuFKnbjhots6TMvxxChS7En37g/edit" target="_blank"
+          >Project_Proposal</a>):</label>
+        <br />
+        <input type="file" name="pro2pro" required />
+        <br />
+        <label for="pro2">Project Preference 2:</label>
+        <br />
+        <input type="text" name="pro2" size="50" />
+        <br />
+        <label for="pro2pro">Project Preference 2 Proposal</label>
+        <br />
+        <input type="file" name="pro1pro" />
+        <br />
+
+        <br />
+
+        <input class="submit" type="submit" />
+      </form>
+      
+    </div>
+</body>
+</html>
