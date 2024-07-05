@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const path = require("path");
 const port = 3019;
 
+
 const app = express();
 app.use(express.static(__dirname));
 app.use(express.urlencoded({ extended: true }));
@@ -44,7 +45,7 @@ app.post("/mentor", async (req, res) => {
   });
   await mentor.save();
   console.log(mentor);
-  res.sendFile(path.join(__dirname, "/templates/home.html"));
+  res.sendFile(path.join(__dirname, "index.html"));
 });
 
 app.post("/mentee", async (req, res) => {
@@ -74,35 +75,35 @@ app.post("/mentee", async (req, res) => {
   });
   await mentee.save();
   console.log(mentee);
-  res.sendFile(path.join(__dirname, "/templates/home.html"));
+  res.sendFile(path.join(__dirname, "index.html"));
 });
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "/templates/home.html"));
+  res.sendFile(path.join(__dirname, "index.html"));
 });
 
 app.get("/mentee", (req, res) => {
-  res.sendFile(path.join(__dirname, "/templates/mentee.html"));
+  res.sendFile(path.join(__dirname, "mentee.html"));
 });
 
 app.get("/mentor", (req, res) => {
-  res.sendFile(path.join(__dirname, "/templates/mentor.html"));
+  res.sendFile(path.join(__dirname, "mentor.html"));
 });
 
 app.get("/home.html", (req, res) => {
-  res.sendFile(path.join(__dirname, "/templates/home.html"));
+  res.sendFile(path.join(__dirname, "index.html"));
 });
 
 app.get("/about.html", (req, res) => {
-  res.sendFile(path.join(__dirname, "/templates/about.html"));
+  res.sendFile(path.join(__dirname, "about.html"));
 });
 
 app.get("/projects.html", (req, res) => {
-  res.sendFile(path.join(__dirname, "/templates/projects.html"));
+  res.sendFile(path.join(__dirname, "projects.html"));
 });
 
 app.get("/guidelines.html", (req, res) => {
-  res.sendFile(path.join(__dirname, "/templates/guidelines.html"));
+  res.sendFile(path.join(__dirname, "guidelines.html"));
 });
 
 app.listen(port, () => {
