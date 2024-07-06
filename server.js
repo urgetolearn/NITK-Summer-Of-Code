@@ -82,15 +82,15 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "index.html"));
 });
 
-app.get("/mentee", (req, res) => {
+app.get("/mentee.html", (req, res) => {
   res.sendFile(path.join(__dirname, "mentee.html"));
 });
 
-app.get("/mentor", (req, res) => {
+app.get("/mentor.html", (req, res) => {
   res.sendFile(path.join(__dirname, "mentor.html"));
 });
 
-app.get("/home.html", (req, res) => {
+app.get("/index.html", (req, res) => {
   res.sendFile(path.join(__dirname, "index.html"));
 });
 
