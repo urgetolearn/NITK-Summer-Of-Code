@@ -24,14 +24,14 @@ Click the Fork button at the top-right corner of this repository page to create 
 10. 🌿 **Create a new branch.**
    ##
       git checkout -b <your_branch_name>
-12. **🛠️ Perform your desired changes to the code base.**
-13. 📊 **Track your changes.**
+8. **🛠️ Perform your desired changes to the code base.**
+9. 📊 **Track your changes.**
     ##
           git add .
-15. 💬 **Commit your changes with a relevant commit message.**
+10. 💬 **Commit your changes with a relevant commit message.**
     ##
           git push -u origin <your_branch_name>
-17. 🔄 **To create a pull request,** go to your forked repository on GitHub and click on Compare & pull request.
-18. 🎉 Congratss! You have made a PR!!
+11. 🔄 **To create a pull request,** go to your forked repository on GitHub and click on Compare & pull request.
+12. 🎉 Congratss! You have made a PR!!
 
 ### If you find this project helpful, please consider giving it a star!!
