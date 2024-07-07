@@ -23,7 +23,7 @@ Click the Fork button at the top-right corner of this repository page to create 
          git pull upstream main
 10. 🌿 **Create a new branch.**
    ##
-      git checkout -b <your_branch_name>
+         git checkout -b <your_branch_name>
 8. **🛠️ Perform your desired changes to the code base.**
 9. 📊 **Track your changes.**
     ##
