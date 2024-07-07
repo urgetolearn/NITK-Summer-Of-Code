@@ -11,7 +11,7 @@ Click the Fork button at the top-right corner of this repository page to create 
          git clone https://github.com/<your-username>/NITK-Summer-Of-Code.git
 4.  📂 **Change the working directory.**
    ##
-      cd NITK-Summer-Of-Code
+         cd NITK-Summer-Of-Code
 4. 🔗 **Add a reference to the original repository.**
    ##
          git remote add upstream https://github.com/urgetolearn/NITK-Summer-Of-Code.git
@@ -34,4 +34,4 @@ Click the Fork button at the top-right corner of this repository page to create 
 11. 🔄 **To create a pull request,** go to your forked repository on GitHub and click on Compare & pull request.
 12. 🎉 Congratss! You have made a PR!!
 
-### If you find this project helpful, please consider giving it a star!!
+### If you find this project helpful, please consider giving it a star ⭐!!
