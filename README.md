@@ -5,7 +5,7 @@ Contributing to open-source projects during college is immensely beneficial for 
 
 Contributions are always welcome! Follow these steps to get started:
 1. 🍴 **Fork this repository.**
-Click the Fork button at the top-right corner of this repository page to create a copy of the repository under your GitHub account.
+Click the `Fork` button at the top-right corner of this repository page to create a copy of the repository under your GitHub account.
 2. 📥 **Clone your forked copy of the project.**
    ##
          git clone https://github.com/<your-username>/NITK-Summer-Of-Code.git
@@ -31,7 +31,7 @@ Click the Fork button at the top-right corner of this repository page to create 
 10. 💬 **Commit your changes with a relevant commit message.**
     ##
           git push -u origin <your_branch_name>
-11. 🔄 **To create a pull request,** go to your forked repository on GitHub and click on Compare & pull request.
+11. 🔄 **To create a pull request,** go to your forked repository on GitHub and click on `Compare & pull request`.
 12. 🎉 Congratss! You have made a PR!!
 
 ### If you find this project helpful, please consider giving it a star ⭐!!
